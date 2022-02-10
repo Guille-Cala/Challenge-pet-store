@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+img{
+    height: 20vh;
+    width: auto;
+}
+#carouselExampleCaptions{
+    width: 25vw;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    /* background-image: url(../Assets/images/mascotas.jpg); */
+    background-color: greenyellow;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    background-color: brown;
+}
+#logo{
+    width: 5rem;
+}
+main{
+    min-height: 50vh;
+    background-color: violet;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 25vh;
+    background-color: blueviolet;
+}
+footer>div{
+    display: flex;
+    flex-direction: column;
+}
+.novedades{
+    width: 20vw;
+}
